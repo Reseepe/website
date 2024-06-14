@@ -2,9 +2,9 @@ import React from 'react'
 
 function Team() {
   return (
-    <div>
+    <section className='h-screen' id='team'>
       Team
-    </div>
+    </section>
   )
 }
 

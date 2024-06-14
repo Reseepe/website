@@ -2,9 +2,9 @@ import React from 'react'
 
 function AboutApp() {
   return (
-    <div>
+    <section className='h-screen' id='aboutApp'>
       About
-    </div>
+    </section>
   )
 }
 

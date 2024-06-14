@@ -2,9 +2,9 @@ import React from 'react'
 
 function Superiority() {
   return (
-    <div>
+    <section className='h-screen'>
       Superiority
-    </div>
+    </section>
   )
 }
 
