@@ -24,10 +24,14 @@ const First = () => {
           <img src={phone} alt="Phone Home" className="w-3/4 lg:w-full max-w-lg" />
         </div>
         <div className="w-full lg:w-1/2 text-left text-white mr-12">
-          <h1 className="text-2xl lg:text-5xl font-bold mb-4">Full of inclusive culinary recipes</h1>
+          <h1 className="text-2xl lg:text-5xl font-bold mb-4 overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing">
+            Full of inclusive culinary recipes
+          </h1>
           <div className="pr-0 lg:pr-24">
             <p className="mb-6 text-2xl w-[552px]">Discover delicious recipes with the ingredients you have on hand. Simply upload an image of your ingredients to get started!</p>
-            <button onClick={scrollToAboutApp} className="bg-white text-main font-bold py-3 px-6 rounded-lg">DISCOVER NOW</button>
+            <button onClick={scrollToAboutApp} className="bg-white text-main font-bold py-3 px-6 rounded-lg transform transition-all duration-300 hover:rotate-6 active:scale-95">
+              DISCOVER NOW
+            </button>
           </div>
         </div>
       </div>
