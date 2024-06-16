@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '/team-banner.svg';
+import pucuks from '/pucukV2.svg';
 
 function Team() {
   const bannerStyle = {
@@ -10,8 +11,9 @@ function Team() {
   };
 
   return (
-    <section className='pt-8' id='team' style={bannerStyle}>
-      Team
+    <section className='flex flex-col items-center pt-8 gap-4' id='team' style={bannerStyle}>
+      <h1 className='text-white text-3xl font-bold'>OUR TEAM</h1>
+      <img src={pucuks} alt="Line" />
     </section>
   )
 }

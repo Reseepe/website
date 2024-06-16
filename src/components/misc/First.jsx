@@ -21,7 +21,7 @@ const First = () => {
     <section className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center h-screen" style={bannerStyle} id='first'>
       <div className="container mx-auto flex flex-col lg:flex-row items-start justify-between">
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0 pl-24">
-          <img src={phone} alt="Phone Home" className="w-3/4 lg:w-full max-w-lg" />
+          <img src={phone} alt="Phone" className="w-3/4 lg:w-full max-w-lg" />
         </div>
         <div className="w-full lg:w-1/2 text-left text-white mr-12">
           <h1 className="text-2xl lg:text-5xl font-bold mb-4 overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing">
