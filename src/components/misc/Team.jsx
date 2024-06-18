@@ -6,6 +6,8 @@ import naufal from '/naufal.svg';
 import aldo from '/aldo.svg';
 import fattah from '/fattah.svg';
 import ilham from '/ilham.svg';
+import elang from '/elang.svg';
+import alvian from '/alvian.svg';
 
 const teamMembers = [
   {
@@ -24,7 +26,7 @@ const teamMembers = [
     role: 'Machine Learning',
   },
   {
-    imgSrc: aldo,
+    imgSrc: alvian,
     name: 'Krishna Alvian Ramadhani',
     role: 'Machine Learning',
   },
@@ -32,7 +34,7 @@ const teamMembers = [
 
 const teamSecMembers = [
   {
-    imgSrc: aldo,
+    imgSrc: elang,
     name: 'Elang Satria Putra Buana',
     role: 'Machine Learning',
   },
