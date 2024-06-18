@@ -5,6 +5,7 @@ import robby from '/robby.svg';
 import naufal from '/naufal.svg';
 import aldo from '/aldo.svg';
 import fattah from '/fattah.svg';
+import ilham from '/ilham.svg';
 
 const teamMembers = [
   {
@@ -36,7 +37,7 @@ const teamSecMembers = [
     role: 'Machine Learning',
   },
   {
-    imgSrc: aldo,
+    imgSrc: ilham,
     name: 'Muhammad Alif Ilham',
     role: 'Mobile Development',
   },
@@ -50,7 +51,7 @@ const teamSecMembers = [
 const TeamMember = ({ imgSrc, name, role }) => (
   <div className='text-center flex flex-col items-center justify-center gap-1'>
     <img src={imgSrc} alt={name} />
-    <h1 className='font-bold text-xl pt-2 w-[260px]'>{name}</h1>
+    <h1 className='font-bold text-xl pt-2 w-[270px]'>{name}</h1>
     <p className='text-lg'>{role}</p>
   </div>
 );
