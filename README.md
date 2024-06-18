@@ -1,3 +1,3 @@
-Landing Page Website Reseepe
+Landing Page Reseepe Website
 
-https://reseepe.vercel.app/
+https://resepee.netlify.app/
