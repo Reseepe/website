@@ -7,7 +7,7 @@ import hand from '/reliable.svg';
 
 function Superiority() {
   return (
-    <section className='h-[528px] flex items-center justify-center gap-40'>
+    <section className='h-[528px] flex items-center justify-between px-10 xl:px-24'>
       <div className='flex flex-col items-center gap-3'>
         <img src={easy} alt="easyUsed" />
         <h1 className='text-2xl font-bold'>EASY TO USED</h1>

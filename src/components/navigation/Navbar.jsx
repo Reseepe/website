@@ -18,8 +18,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className='w-full h-24 bg-main flex items-center justify-between text-white text-xl px-14 sticky top-0 z-50'>
-      <img src={logo} alt="logo" className='h-auto w-72' />
+    <nav className='w-full h-24 bg-main flex items-center justify-between text-white text-base xl:text-xl px-14 sticky top-0 z-50'>
+      <img src={logo} alt="logo" className='h-auto w-60 xl:w-72' />
       <ul className='flex gap-8 items-center'>
         {navData.map(data => (
           <li key={data.name} className='flex items-center p-5'>

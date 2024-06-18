@@ -30,9 +30,6 @@ const teamMembers = [
     name: 'Krishna Alvian Ramadhani',
     role: 'Machine Learning',
   },
-];
-
-const teamSecMembers = [
   {
     imgSrc: elang,
     name: 'Elang Satria Putra Buana',
@@ -50,18 +47,11 @@ const teamSecMembers = [
   },
 ];
 
+
 const TeamMember = ({ imgSrc, name, role }) => (
-  <div className='text-center flex flex-col items-center justify-center gap-1'>
+  <div className='text-center flex flex-col items-center justify-center lg:gap-1'>
     <img src={imgSrc} alt={name} />
     <h1 className='font-bold text-xl pt-2 w-[270px]'>{name}</h1>
-    <p className='text-lg'>{role}</p>
-  </div>
-);
-
-const TeamSecMember = ({ imgSrc, name, role }) => (
-  <div className='text-center flex flex-col items-center justify-center gap-1'>
-    <img src={imgSrc} alt={name} />
-    <h1 className='font-bold text-xl pt-2 w-[260px]'>{name}</h1>
     <p className='text-lg'>{role}</p>
   </div>
 );
@@ -71,7 +61,7 @@ const Team = () => {
     backgroundImage: `url(${banner})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '850px',
+    height: '880px',
   };
 
   return (
@@ -79,20 +69,9 @@ const Team = () => {
       <h1 className='text-white text-3xl font-bold'>OUR TEAM</h1>
       <img src={pucuks} alt="Line" />
 
-      <div className='flex items-center justify-center text-center pt-7 gap-24 text-white'>
+      <div className='flex flex-wrap items-center justify-center text-center pt-7 gap-7 xl:gap-24 text-white'>
         {teamMembers.map(member => (
           <TeamMember 
-            key={member.name} 
-            imgSrc={member.imgSrc} 
-            name={member.name} 
-            role={member.role} 
-          />
-        ))}
-      </div>
-
-      <div className='flex items-center justify-center text-center pt-7 gap-24 text-white'>
-        {teamSecMembers.map(member => (
-          <TeamSecMember 
             key={member.name} 
             imgSrc={member.imgSrc} 
             name={member.name} 

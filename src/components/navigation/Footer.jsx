@@ -46,7 +46,7 @@ const Footer = () => (
       ))}
     </ul>
     <img src={garis} alt="Line" />
-    <p className="font-semibold text-lg pt-4 text-white">Copyright ©2024 Reseepe. Design by Cloud Computing Team</p>
+    <p className="font-semibold text-base xl:text-lg pt-4 text-white">Copyright ©2024 Reseepe. Design by Cloud Computing Team</p>
   </section>
 );
 
