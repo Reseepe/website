@@ -2,7 +2,8 @@
 
 ## Using React + Vite
 
-![Landing Page Screenshot 1](https://github.com/Reseepe/website/assets/96192431/77f35a8c-aecb-4546-8d04-e33c67bd393d)
+![image](https://github.com/Reseepe/website/assets/96192431/ce2a6a64-2586-4bc3-8c81-d8a64464ace1)
+
 ![Landing Page Screenshot 2](https://github.com/Reseepe/website/assets/96192431/6cda977f-7ad8-46c4-ac65-6ab71b98beba)
 
 This repository provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and some ESLint rules.
